@@ -1,0 +1,394 @@
+.swiper-slide{
+	position: relative;
+}
+.page1{
+	background:url(../img/1-bg.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+.page1 p:nth-child(1){
+	text-align: center;
+	margin-top:28%;
+}
+.page1 p:nth-child(2)>img{
+	width:70%;
+}
+.page1 p:nth-child(2){
+	text-align:center;
+	margin-top:5%;
+}
+.btn{
+	position: absolute;
+	bottom:0%;
+	width:100%;
+	animation: ar 2s linear infinite;
+	text-align:center;
+}
+.page1 p:nth-child(3){
+	position: absolute;
+	top:0;
+}
+.page1 p:nth-child(3)>img{
+	visibility:visible;
+}
+/*第二页*/
+.page2{
+	background:url(../img/bj-2.png) 0 0 no-repeat;
+	background-size:cover;
+}
+.page2 h2{
+	position: absolute;
+	top:20%;
+	text-align: center;
+	z-index: 1;
+}
+.page2 h2>img{
+	width:90%;
+	box-shadow: 5px 5px 20px rgba(255,255,255,.2)
+}
+.page2 h4{
+	position: absolute;
+	top:20%;
+	text-align: center;
+	z-index: 2;
+}
+.page2 h4>img{
+	width:90%;
+}
+.bee{
+	position: absolute;
+	bottom:15%;
+	width:320px;
+	margin-left:30px;
+}
+.be{
+	width: 100px;
+	height:60px;
+	position: relative;
+	font-size:1.8rem;
+	font-family:"黑体";
+	text-align: center;
+	line-height: 60px;
+	color:#fff;
+	float:left;
+	margin-right:10px;
+}
+.be1{
+	background-color: #ffb700;
+	margin-left:54px;
+	margin-bottom:40px;
+	animation: roll 2s linear 3s  1;
+}
+.be2{
+	background-color: #ee534d;
+	margin-bottom:40px;
+	animation: roll 2s linear 3.5s  1;
+}
+.be3{
+	background-color: #675aa0;
+	animation: roll 2s linear 4s  1;
+}
+.be4{
+	background-color: #0096e3;
+	animation: roll 2s linear 4.5s  1;
+}
+.be5{
+	background-color: #1b2d57;
+	margin-right: 0;
+	animation: roll 2s linear 5s  1;
+}
+.be:before{
+	content:"";
+	position: absolute;
+	top:-30px;
+	left:0;
+	border-right:50px solid transparent;
+	border-left:50px solid transparent;
+}
+.be:after{
+	content:"";
+	position: absolute;
+	bottom:-30px;
+	left:0;
+	border-right:50px solid transparent;
+	border-left:50px solid transparent;
+}
+.be1:before{
+	border-bottom:30px solid #ffb700;
+}
+.be1:after{
+	border-top:30px solid #ffb700;
+}
+.be2:before{
+	border-bottom:30px solid #ee534d;
+}
+.be2:after{
+	border-top:30px solid #ee534d;
+}
+.be3:before{
+	border-bottom:30px solid #675aa0;
+}
+.be3:after{
+	border-top:30px solid #675aa0;
+}
+.be4:before{
+	border-bottom:30px solid #0096e3;
+}
+.be4:after{
+	border-top:30px solid #0096e3;
+}
+.be5:before{
+	border-bottom:30px solid #1b2d57;
+}
+.be5:after{
+	border-top:30px solid #1b2d57;
+}
+/*第三页*/
+.page3{
+	background:url(../img/page3.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+/*第四页*/
+.page4{
+	background: url(../img/bj-4.png) center center no-repeat;
+	background-size: cover;
+}
+.page4 h2{
+	font-size:2.8rem;
+	font-family:"黑体";
+	color:#fff;
+	text-align:center;
+	margin-top:20%;
+}
+.page4 h3{
+	height: 286px;
+	position: absolute;
+	bottom:20%;
+	text-align:center;
+	width:100%;
+}
+.page4 h3>img{
+	width:300px;
+}
+/*第五页*/
+.page5,.page6,.page7,.page8{
+	background: url(../img/9-bg.jpg) center center no-repeat;
+	background-size: cover;
+}
+.page5 h2{
+	text-align: center;
+}
+.page5 h2>img{
+	width:55%;
+}
+.page5 h3{
+	font-size:1.5rem;
+	font-family:"微软雅黑";
+	color:#fff;
+	width:90%;
+	padding:0 7%;
+	position: absolute;
+	bottom:15%;
+	font-weight:normal;
+}
+.page5 h4{
+	position: absolute;
+	top:5%;
+}
+/*第九页*/
+.page9{
+	background: url(../img/9-bg.jpg) center center no-repeat;
+	background-size:cover;
+}
+.page9>h2{
+	position: absolute;
+	top:0;
+	z-index: -1;
+}
+.page9>h2>img{
+	width:100%;
+}
+.page9>h3{
+	text-align: center;
+}
+.page9>h3>img{
+	width:30%;
+	margin:2% 4%;
+}
+.page9>h3:nth-of-type(1){
+	margin-top:30%;
+}
+.page9>h4{
+	position: absolute;
+	top:5%;
+}
+/*第十页*/
+.page10{
+	background: url(../img/9-bg.jpg) center center no-repeat;
+	background-size:cover;
+}
+.page10 h2{
+	width: 85%;
+	margin:0 auto;
+	font-size: 2.8rem;
+	font-family:"微软雅黑";
+	color:#fff;
+	margin-top:15%;
+	font-weight:normal;
+	margin-bottom:10%;
+}
+.page10 h3{
+	font-size:1.5rem;
+	width:85%;
+	font-family:"微软雅黑";
+	color:#fff;
+	margin-top:20px;
+	margin:0 auto;
+	font-weight:normal;
+	padding:0 7.5%;
+}
+.page10 h5{
+	position: absolute;
+	top:5%;
+}
+.page10 h4{
+	text-align: center;
+	margin-top:15%;
+}
+.page10 h4>img{
+	width:85%;
+}
+/*第11页*/
+.page11{
+	background: url(../img/9-bg.jpg) center center no-repeat;
+	background-size:cover;
+}
+.page11 h2{
+	position: absolute;
+	top:0;
+	width: 100%;
+	z-index:-1;
+}
+.page11 h2>img{
+	width: 100%;
+}
+.page11 h3{
+	text-align: center;
+}
+.page11 h3>img{
+	width: 43%;
+	margin:1% 2%;
+}
+.page11 h3:nth-of-type(1){
+	margin-top:30%;
+}
+/*第12页*/
+.page12{
+	background: url(../img/page11.jpg) center center no-repeat;
+	background-size:cover;
+}
+.page12>p{
+	margin-left:10px;
+	margin-top:-5px;
+}
+.page12>p:not(:last-child)>img{
+	width: 90%;
+}
+.page12>p:first-child{
+	margin-top:38%;
+}
+/*第13页*/
+.page13{
+	background: url(../img/9-bg.jpg) center center no-repeat;
+	background-size:cover;
+}
+.page13>h2{
+	margin-top:15%;
+	text-align:center;
+}
+.page13>h2>img{
+	width:60%;
+}
+.page13>p:nth-of-type(1){
+	font-size:2.1rem;
+	color:#fff;
+	margin-top:15%;
+	padding:0 10%;
+}
+.page13>h3{
+	font-size:2.1rem;
+	color:#fff;
+	padding:0 10%;
+	font-weight: normal;
+}
+.page13>h4{
+	color: #FFFFFF;
+    font-size: 1.5rem;
+    font-family: "微软雅黑";
+    text-align: left;
+    margin-top:6%;
+    text-indent: 2rem;
+    padding:0 0%;
+    font-weight:normal;
+}
+.page13>h5{
+	position: absolute;
+	top:30%;
+	left:0;
+}
+.page13>h5>img{
+	width: 100%;
+}
+.page13>h6{
+	text-align: center;
+    margin-left: -10%;
+    margin-top: 6%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes ar{
+	0%{
+		bottom:0%;
+		opacity:1;
+	}
+	20%{
+		bottom:1%;
+		opacity:0.8;
+	}
+	40%{
+		bottom:2%;
+		opacity:0.6;
+	}
+	60%{
+		bottom:3%;
+		opacity:0.4;
+	}
+	80%{
+		bottom:4%;
+		opacity:0.2;
+	}
+	100%{
+		bottom:5%;
+		opacity:0;
+	}
+}
+@keyframes roll{
+	0%{
+		transform:rotateZ(0deg);
+	}
+	100%{
+		transform:rotateZ(360deg);
+	}
+}
